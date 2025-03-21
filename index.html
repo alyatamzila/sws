@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surfing with Sofi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">SURFING WITH SOFI</div>
+            <ul class="nav-links">
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">CLASSES</a></li>
+                <li><a href="#">WHAT THEY SAY</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">FAQ</a></li>
+            </ul>
+            <a href="#" class="btn">Book Now</a>
+            <div class="menu-toggle">&#9776;</div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="overlay">
+            <h1>Surfing with Sofi</h1>
+        </div>
+    </section>
+
+    <!-- About Me Section
+    <section class="about">
+        <h2>About Me</h2>
+        <p>Hailing from the surf-rich shores of Java, Sofi brings 8 years of experience and a deep love for the ocean...</p>
+    </section>
+
+    Beginner Class Section -->
+    <!-- <section class="beginner">
+        <h3>Find Your Wave, No Matter Your Level</h3>
+        <h2>Beginner</h2>
+        <p>Start your surfing journey with the right foundation...</p>
+        <button class="btn">I'm Interested</button>
+
+        <div class="surfboards">
+            <img src="surfboard1.png" alt="Surfboard 1">
+            <img src="surfboard2.png" alt="Surfboard 2">
+            <img src="surfboard3.png" alt="Surfboard 3">
+        </div>
+    </section> -->
+
+    <script>
+        // Toggle Menu untuk Mobile
+        const menuToggle = document.querySelector(".menu-toggle");
+        const navLinks = document.querySelector(".nav-links");
+
+        menuToggle.addEventListener("click", () => {
+            navLinks.classList.toggle("active");
+        });
+    </script>
+</body>
+</html>
