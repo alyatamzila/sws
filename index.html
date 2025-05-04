@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Surfing with Sofi</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header class="hero">
+      <nav class="navbar">
+        <!-- Desktop Navigation -->
+        <div class="nav-left">
+          <a href="mailto:surfingwithsofi@gmail.com" target="_blank">
+            <img src="icons/mail.svg" alt="Email" />
+          </a>
+          <a href="https://instagram.com/surfingwithsofi" target="_blank">
+            <img src="icons/instagram.svg" alt="Instagram" />
+          </a>
+          <a href="https://wa.me/62881037997747" target="_blank">
+            <img src="icons/whatsapp.svg" alt="WhatsApp" />
+          </a>
+          <a href="#about">ABOUT</a>
+          <a href="#classes">CLASSES</a>
+        </div>
+
+        <div class="nav-center">
+          <img src="images/logo.png" alt="Surfing with Sofi" class="logo" />
+        </div>
+
+        <div class="nav-right">
+          <a href="#testimonials">WHAT THEY SAY</a>
+          <!-- minta tolong masuukan link untuk blog surfing with sofi -->
+          <a href="#">BLOGS</a>
+          <a href="#faq">FAQ</a>
+          <a href="#contact" class="btn-book">Book Now</a>
+        </div>
+
+        <!-- Mobile Navigation -->
+        <div class="nav-mobile-left">
+          <img src="images/logo.png" alt="Logo" class="logo" />
+        </div>
+        <div class="nav-mobile-right">
+          <img src="icons/menu.svg" alt="Menu" class="menu-toggle" />
+        </div>
+
+        <div class="mobile-menu" id="mobileMenu">
+          <a href="#about">ABOUT</a>
+          <a href="#classes">CLASSES</a>
+          <a href="#testimonials">WHAT THEY SAY</a>
+          <!-- minta tolong masuukan link untuk blog surfing with sofi -->
+          <a href="#">BLOGS</a>
+          <a href="#faq">FAQ</a>
+          <a href="#" class="btn-book">Book Now</a>
+        </div>
+      </nav>
+    </header>
+
+    <div class="center-icon" onclick="scrollToAbout()">
+      <span class="tooltip">LEARN MORE</span>
+      <img src="images/Icon Learn More.png" alt="divider icon" />
+    </div>
+
+    <section class="about" id="about">
+      <div>
+        <h2>About Me</h2>
+        <p>
+          Hailing from the surf-rich shores of Java, Sofi brings 8 years of
+          experience and a deep love for the ocean. From his early days as a
+          beach boy to coaching at top surf camps, he’s helped surfers of all
+          levels ride with confidence. With a friendly approach and expert
+          guidance, Sofi makes learning fun, safe, and rewarding. Whether it’s
+          your first wave or your next challenge, Surfing With Sofi is where the
+          adventure begins. See you in the water!
+        </p>
+      </div>
+    </section>
+
+    <section class="levels" id="classes">
+      <div class="levels-wrapper">
+        <div class="levels-track">
+          <!-- Slide 1 -->
+          <div class="levels-content">
+            <p class="levels-subtitle">FIND YOUR WAVE, NO MATTER YOUR LEVEL</p>
+            <h2 class="levels-title">
+              <span class="highlight-text">Beginner</span>
+            </h2>
+            <p class="levels-description">
+              Start your surfing journey with the rigth foundation. Our beginner
+              lessons focus on building confidence, mastering the basic, and
+              catching your first waves in a fun,safe environment.
+            </p>
+            <ul class="levels-benefits">
+              <li>✔ Learn proper stance, paddling, and popping up</li>
+              <li>✔ Understand ocean safety and how to read waves</li>
+              <li>✔ Ride your first wave with expert guidance</li>
+            </ul>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="levels-content">
+            <p class="levels-subtitle">FIND YOUR WAVE, NO MATTER YOUR LEVEL</p>
+            <h2 class="levels-title">
+              <span class="highlight-text">Intermediate</span>
+            </h2>
+            <p class="levels-description">
+              Take your skills to the next level with personalized coaching.
+              Wheter refining techniques or mastering maneuvers, our experienced
+              instructors help you break through plateaus and surf with more
+              power and style.
+            </p>
+            <ul class="levels-benefits">
+              <li>✔ Improve wave selection and positioning</li>
+              <li>✔ Master turns, speed control, and flow</li>
+              <li>✔ Get video analysis and real-time feedback</li>
+            </ul>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="levels-content">
+            <p class="levels-subtitle">FIND YOUR WAVE, NO MATTER YOUR LEVEL</p>
+            <h2 class="levels-title">
+              <span class="highlight-text">Longboard (Single Fin)</span>
+            </h2>
+            <p class="levels-description">
+              Experience the art of longboarding and ride with grce. Wheter
+              cross-stepping, nose-riding, or perfecting effortless lines, our
+              sessions help you refine your techniques and connect deeply with
+              the waves.
+            </p>
+            <ul class="levels-benefits">
+              <li>✔ Learn smooth transition and footwork</li>
+              <li>✔ Master nose rides and stylish maneuvers</li>
+              <li>✔ Feel the timeless flow of classic longboarding</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="levels-extra">
+          <div class="levels-extra-content">
+            <a href="#contact" class="btn-orange">I’M INTERESTED</a>
+          </div>
+          <!-- Navigation -->
+          <div
+            class="levels-nav"
+            style="
+              display: flex;
+              flex-direction: row;
+              align-items: flex-start;
+              margin-top: 30px;
+            "
+          >
+            <button class="btn-nav left">&larr;</button>
+            <button class="btn-nav right">&rarr;</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery" id="gallery">
+      <div class="gallery-content">
+        <p class="gallery-subtitle">#TAG AND FOLLOW US ON</p>
+        <h2 class="gallery-title">@SurfingwithSofi</h2>
+        <a href="#" class="btn-outline">Follow Now</a>
+      </div>
+    </section>
+
+    <section class="what-they-say" id="testimonials">
+      <h2 class="testimonial-heading">
+        WHAT<br />SURFERS<br />ARE SAYING<br />
+      </h2>
+
+      <div class="testimonial-wrapper"></div>
+        <div class="testimonial-slide active">
+          <p class="quote">
+            “Surfing with Sofi is awesome! He is such a calm and patient surf
+            guide, who explains everything in detail and makes sure that you feel
+            comfortable all the time.”
+          </p>
+          <p class="name">Christina B.</p>
+          <p class="stars">★★★★★</p>
+        </div>
+
+        <div class="testimonial-slide">
+          <p class="quote">
+            “Simply the best surf guide! Such a kind and incredible person who
+            really takes great care of you in the water!”
+          </p>
+          <p class="name">Sabrina P.</p>
+          <p class="stars">★★★★★</p>
+        </div>
+
+        <div class="testimonial-slide">
+          <p class="quote">
+            “I’m Japanese, but you explained it so clearly! I highly recommend
+            you!”
+          </p>
+          <p class="name">Motoki H.</p>
+          <p class="stars">★★★★★</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq" id="faq">
+      <h2 class="faq-title">Frequently Asked Question</h2>
+
+      <div class="faq-list">
+        <div class="faq-item">
+          <span>Do I need any prior experience to join?</span>
+          <span class="faq-icon">+</span>
+        </div>
+        <div class="faq-answer">
+          Not at all! Our lessons are designed for all skill levels, including
+          complete beginners. The instructor will guide you through the basics
+          and help you feel comfortable in the water.
+        </div>
+        <div class="faq-item">
+          <span>What should I bring to the lesson?</span>
+          <span class="faq-icon">+</span>
+        </div>
+        <div class="faq-answer">
+          Bring swimwear, a towel, waterproof sunscreen and dry clothes – we’ll
+          take care of the rest!
+        </div>
+        <div class="faq-item">
+          <span>How long is each session?</span>
+          <span class="faq-icon">+</span>
+        </div>
+        <div class="faq-answer">
+          The lesson lasts 2 hours, including theory and a briefing on what
+          you'll learn that day.
+        </div>
+        <div class="faq-item">
+          <span>Is surfing safe for beginners?</span>
+          <span class="faq-icon">+</span>
+        </div>
+        <div class="faq-answer">
+          Yes! Surfing is safe for beginners when you take lessons with a
+          qualified instructor, use the right equipment, and follow safety
+          guidelines. We’ll teach you the basics, including how to stay
+          safe in the water.
+        </div>
+        <div class="faq-item">
+          <span>What happens if the weather is bad?</span>
+          <span class="faq-icon">+</span>
+        </div>
+        <div class="faq-answer">
+          The lesson will continue in light rain, but if there’s a thunderstorm,
+          we’ll have to cancel. We’ll stay in touch to find a
+          new date if needed.
+        </div>
+      </div>
+    </section>
+
+    <section class="location-contact">
+      <div class="location-info">
+        <h3 class="location-title">📍 Our Location</h3>
+        <p class="location-detail">
+          Jl. Pantai Berawa, Tibubeneng, Kuta Utara, Kabupaten Badung, Bali
+        </p>
+        <p class="location-hours">
+          <strong>Operating Hour:</strong> Mon - Sun, 07:00–17:00
+        </p>
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126356.00301723472!2d115.12063370594763!3d-8.654603184142874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd24706f1621893%3A0x1dc7a6f92892d6e9!2sJl.%20Pantai%20Berawa%2C%20Tibubeneng%2C%20Kec.%20Kuta%20Utara%2C%20Kabupaten%20Badung%2C%20Bali!5e0!3m2!1sen!2sid!4v1681123456789!5m2!1sen!2sid"
+            width="100%"
+            height="300"
+            style="border: 0; border-radius: 10px"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          >
+          </iframe>
+        </div>
+      </div>
+    
+
+      <!-- Right Side: Contact Form -->
+      <div class="contact-form" id="contact">
+        <div id="inquiry-form">
+          <p class="subtitle">Ready to Dive In?</p>
+          <h2 class="title">Save Your Spot Now!</h2>
+      
+          <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Your Name" />
+      
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="you@example.com" />
+      
+            <label for="class">Class</label>
+            <select id="class">
+              <option>Beginner</option>
+              <option>Intermediate</option>
+              <option>Advanced</option>
+            </select>
+      
+            <label for="message">Message</label>
+            <textarea id="message" rows="4" placeholder="Write your message..."></textarea>
+      
+            <button type="submit">SUBMIT</button>
+          </form>
+        </div>
+      
+        <div id="thank-you-message" style="display: none; text-align: center; margin-top: 3rem; margin-bottom: 3rem; padding: 1rem;">
+          <h2 style="font-family: 'Freestyle Script', cursive; font-size: 4rem; color: #0e5a64; margin-top: 1rem; margin-bottom: 2rem;">
+            Thank you for <br /> reaching out!
+          </h2>
+          <p style="text-align: center; font-size: 1rem; color: #333; margin-bottom: 2rem; line-height: 1.5rem; margin-left: 2rem; margin-right: 2rem;">
+            We've successfully received your inquiry our team is excited to review your message. We'll be in touch very soon to assist you.
+          </p>
+        </div>
+      </div>
+    </section>
+      
+
+    <footer class="footer">
+      <div class="footer-wrapper">
+        <div class="footer-logo">
+          <img src="images/footer.png" alt="Surf with Sofi Logo" />
+        </div>
+
+        <div class="footer-content">
+          <div class="footer-section">
+            <h4>Homepage</h4>
+            <ul>
+              <li><a href="#about">About</a></li>
+              <li><a href="#classes">Classes</a></li>
+              <li><a href="#gallery">Gallery</a></li>
+              <li><a href="#testimonials">What They Say</a></li>
+              <li><a href="#faq">FAQ</a></li>
+              <li><a href="https://wa.me/62881037997747">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-section">
+            <h4>Socials</h4>
+            <ul>
+              <li>
+                <img src="icons/mail.svg" class="icon" alt="email" />
+                <a href="mailto:surfingwithsofi@gmail.com"
+                  >surfingwithsofi@gmail.com</a
+                >
+              </li>
+              <li>
+                <img src="icons/instagram.svg" class="icon" alt="Instagram" />
+                <a href="https://instagram.com/surfingwithsofi" target="_blank"
+                  >surfingwithsofi</a
+                >
+              </li>
+              <li>
+                <img src="icons/whatsapp.svg" class="icon" alt="WhatsApp" />
+                <a href="https://wa.me/62881037997747" target="_blank"
+                  >+62 881-0379-97747</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <a
+      href="https://wa.me/62881037997747"
+      class="whatsapp-float"
+      target="_blank"
+      aria-label="Chat on WhatsApp"
+    >
+      <img src="icons/whatsapp.svg" alt="WhatsApp" />
+    </a>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        // ========== FAQ ACCORDION ==========
+        const faqItems = document.querySelectorAll(".faq-item");
+    
+        faqItems.forEach((item) => {
+          item.addEventListener("click", function () {
+            faqItems.forEach((el) => {
+              if (el !== item) el.classList.remove("active");
+            });
+            item.classList.toggle("active");
+          });
+        });
+
+        // ========== MOBILE MENU TOGGLE ==========
+        const menuToggle = document.querySelector(".menu-toggle");
+        const mobileMenu = document.getElementById("mobileMenu");
+
+        // Saat ikon hamburger diklik
+        menuToggle.addEventListener("click", () => {
+          mobileMenu.classList.toggle("show"); // Toggle class 'show'
+        });
+
+        // Optional: Tutup menu jika salah satu link diklik
+        const links = mobileMenu.querySelectorAll("a");
+        links.forEach(link => {
+          link.addEventListener("click", () => {
+            mobileMenu.classList.remove("show");
+          });
+        });
+
+        function scrollToAbout() {
+          const about = document.getElementById("about");
+          if (about) {
+            about.scrollIntoView({ behavior: "smooth" });
+          }
+      }
+    
+        // ========== LEVELS SLIDER ==========
+        const track = document.querySelector(".levels-track");
+        const levelSlides = document.querySelectorAll(".levels-content");
+        const next = document.querySelector(".btn-nav.right");
+        const prev = document.querySelector(".btn-nav.left");
+        let levelIndex = 0;
+    
+        function updateSlider() {
+          if (levelIndex < 0) levelIndex = 0;
+          if (levelIndex > 2) levelIndex = 2;
+          track.style.transform = `translateX(-${levelIndex * 100}%)`;
+        }
+    
+        next?.addEventListener("click", () => {
+          levelIndex++;
+          updateSlider();
+        });
+    
+        prev?.addEventListener("click", () => {
+          levelIndex--;
+          updateSlider();
+        });
+    
+        updateSlider();
+    
+        // ========== FORM SUBMIT TO WHATSAPP ==========
+        const form = document.querySelector("#contact form");
+        const thankYou = document.getElementById("thank-you-message");
+        const inquiryForm = document.getElementById("inquiry-form");
+    
+        form.addEventListener("submit", function (e) {
+          e.preventDefault();
+    
+          const name = document.getElementById("name").value.trim();
+          const email = document.getElementById("email").value.trim();
+          const surfClass = document.getElementById("class").value.trim();
+          const message = document.getElementById("message").value.trim();
+    
+          if (!name || !email || !surfClass) {
+            alert("Please complete all required fields.");
+            return;
+          }
+    
+          const waMessage = `Hello, I'm interested in a surf class!
+    
+          Name: ${name}
+          Email: ${email}
+          Class: ${surfClass}
+          Message: ${message || "-"}`;
+    
+          const encoded = encodeURIComponent(waMessage);
+          const waUrl = `https://wa.me/62881037997747?text=${encoded}`;
+    
+          inquiryForm.style.display = "none";
+          thankYou.style.display = "block";
+    
+          setTimeout(() => {
+              window.open(waUrl, "_blank");
+            }, 1500);
+          });
+    
+        // ========== TESTIMONIALS SLIDER ==========
+        const testimonialSlides = document.querySelectorAll(".testimonial-slide");
+        let testimonialIndex = 0;
+    
+        function showTestimonial(index) {
+          testimonialSlides.forEach((slide, i) => {
+            slide.classList.toggle("active", i === index);
+          });
+        }
+    
+        setInterval(() => {
+          testimonialIndex = (testimonialIndex + 1) % testimonialSlides.length;
+          showTestimonial(testimonialIndex);
+        }, 4000);
+    
+        showTestimonial(testimonialIndex);
+      });
+    </script>
+    
+    
+  </body>
+</html>
